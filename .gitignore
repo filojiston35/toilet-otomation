@@ -31,3 +31,5 @@ logs
 
 #custom build outputs
 js_dosyalari.json
+
+.cursor

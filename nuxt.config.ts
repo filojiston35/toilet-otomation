@@ -19,15 +19,15 @@ export default defineNuxtConfig({
   // Diğer yapılandırmalar
   app: {
     head: {
-      titleTemplate: "Modanin Kalbi - %s",
-      title: "Modanin Kalbi",
+      titleTemplate: "Tuvalet Otomasyonu - %s",
+      title: "Tuvalet Otomasyonu",
       htmlAttrs: {
         lang: "en",
       },
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "description", content: "Modanin Kalbi" },
+        { name: "description", content: "Tuvalet Otomasyonu" },
       ],
       link: [
         {
@@ -54,6 +54,10 @@ export default defineNuxtConfig({
     },
     "@pinia/nuxt",
   ],
+  devServer: {
+    host: "0.0.0.0",
+    port: 3000,
+  },
   vite: {
     css: {
       preprocessorOptions: {
